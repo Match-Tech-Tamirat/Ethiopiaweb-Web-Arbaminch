@@ -4,10 +4,11 @@
 }
 
 :root {
-  --primary-main-color: #000080;
+  --primary-main-color: #010136;
   --primary-main-light-color: #00ffff;
+  --primary-white: #ffffff;
   --primary-accent-color: #800000;
-  --primary-gray-color: #008080;
+  --primary-gray-color: #616f6f;
   --max-width: 87.375em;
 }
 
@@ -18,3 +19,30 @@
   font-family: NotoSansEthiopic;
 
 }
+
+.main-header__top-container {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-main-color);
+  }
+   
+  .main-header__top {
+    padding: 0.5rem;
+    max-width: var(--max-width);
+    width: var(--max-width);
+    text-align: right;
+  }
+
+  .main-header__top a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    margin-right: 0.9rem;
+    color: var(--primary-white);
+  }
+
+
+  .main-header__top a i {
+    background-color: var(--primary-accent-color);
+    border-radius: 0.3rem;
+    padding: 0.09rem;
+  }
