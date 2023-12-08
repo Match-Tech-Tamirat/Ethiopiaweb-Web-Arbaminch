@@ -1,0 +1,20 @@
+@font-face {
+  font-family: NotoSansEthiopic;
+  src: url(/Fonts/static/NotoSansEthiopic-Regular.ttf) format('truetype');
+}
+
+:root {
+  --primary-main-color: #000080;
+  --primary-main-light-color: #00ffff;
+  --primary-accent-color: #800000;
+  --primary-gray-color: #008080;
+  --max-width: 87.375em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: NotoSansEthiopic;
+
+}
