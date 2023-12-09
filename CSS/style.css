@@ -20,29 +20,33 @@
 
 }
 
+/*---------------phone email start -------*/
+
 .main-header__top-container {
   display: flex;
   justify-content: center;
   background-color: var(--primary-main-color);
-  }
-   
-  .main-header__top {
-    padding: 0.5rem;
-    max-width: var(--max-width);
-    width: var(--max-width);
-    text-align: right;
-  }
+}
 
-  .main-header__top a{
-    text-decoration: none;
-    font-size: 0.7rem;
-    margin-right: 0.9rem;
-    color: var(--primary-white);
-  }
+.main-header__top {
+  padding: 0.5rem;
+  max-width: var(--max-width);
+  width: var(--max-width);
+  text-align: right;
+}
+
+.main-header__top a {
+  text-decoration: none;
+  font-size: 0.7rem;
+  margin-right: 0.9rem;
+  color: var(--primary-white);
+}
 
 
-  .main-header__top a i {
-    background-color: var(--primary-accent-color);
-    border-radius: 0.3rem;
-    padding: 0.09rem;
-  }
+.main-header__top a i {
+  background-color: var(--primary-accent-color);
+  border-radius: 0.3rem;
+  padding: 0.09rem;
+}
+
+/*---------------phone email end -------*/
