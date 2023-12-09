@@ -8,8 +8,8 @@
   --primary-main-light-color: #00ffff;
   --primary-white: #ffffff;
   --primary-accent-color: #800000;
-  --primary-gray-color: #616f6f;
-  --max-width: 87.375em;
+  --primary-gray-color: #6cd1d1;
+  --max-width: 85 .375em;
 }
 
 * {
@@ -57,3 +57,57 @@
 
 /*---------------phone email end -------*/
 
+/*---------------navigation and logo start-------*/
+.main-header__logo-nav-bg {
+  display: flex;
+  justify-content: center;
+}
+
+.main-header__logo-nav-container {
+  max-width: var(--max-width);
+  width: var(--max-width);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.main-header__logo img {
+  width: 200px;
+  padding-right: 0.9rem;
+}
+
+/*--nav bar--*/
+.main-header__nav ul {
+  list-style: none;
+}
+
+.main-header__nav li {
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
+
+
+.main-header-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-header__nav li a {
+  text-decoration: none;
+  color: var(--primary-main-light-color);
+  font-weight: bold;
+  padding: 0.7rem;
+  transition: all 0.5s ease;
+  border-top: var(--primary-gray-color) solid 0.16rem;
+}
+
+
+.main-header__nav li a:hover {
+  color: #37ff00;
+  border-top: var(--primary-accent-color) solid 0.16rem;
+  border-radius: 0.1rem;
+}
+
+/*---------------navigation and logo end-------*/
