@@ -20,7 +20,7 @@
 }
 
 #top {
-  background-color: #4d6750;
+  background-color: #010200;
   width: 100%;
   height: auto;
 }
@@ -67,9 +67,11 @@
   max-width: var(--max-width);
   width: var(--max-width);
   display: flex;
+  flex: auto;
   justify-content: space-around;
   align-items: center;
   padding: 0.5em;
+  background-color: #000600;
 }
 
 .main-header__logo img {
@@ -111,3 +113,36 @@
 }
 
 /*---------------navigation and logo end-------*/
+
+/*------------- mani body top container text and image start -------*/
+
+.main-body {
+  width: 100%;
+}
+
+
+.main-body__top-contaniner {
+  z-index: -1;
+  position: relative;
+  height: 50vh;
+  background: url('/images/imges-s/Aribaminch  egzer bridge.jpg') center;
+  opacity: 0.3;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main-body__top-container-text {
+  position: absolute;
+  background-color: rgb(255, 255, 255, 0.4);
+  padding: 15px;
+  font-size: 2rem;
+  bottom: 15px;
+  left: 55px;
+  
+}
+
+.main-body__top-container-text h1 {
+  text-align: center;
+}
+/*------------- mani body top container text and image end -------*/
