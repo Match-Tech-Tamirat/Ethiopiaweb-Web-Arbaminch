@@ -139,10 +139,12 @@
   font-size: 2rem;
   bottom: 15px;
   left: 55px;
-  
+
 }
 
 .main-body__top-container-text h1 {
   text-align: center;
+  color: #00ffff;
 }
+
 /*------------- mani body top container text and image end -------*/
