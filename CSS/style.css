@@ -15,6 +15,7 @@
 * {
   margin: 0;
   padding: 0;
+
   box-sizing: border-box;
   font-family: NotoSansEthiopic;
 }
@@ -114,7 +115,7 @@
 
 /*---------------navigation and logo end-------*/
 
-/*------------- mani body top container text and image start -------*/
+/*------------- main body top container text and image start -------*/
 
 .main-body {
   width: 100%;
@@ -147,4 +148,73 @@
   color: #00ffff;
 }
 
-/*------------- mani body top container text and image end -------*/
+/*------------- main body top container text and image end -------*/
+
+
+/*------------- main body middle container time START -------*/
+.main-body__middle-container {
+  height: auto;
+  background: linear-gradient(to left, rgb(206, 232, 206), yellow, rgb(60, 6, 81)) 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.middle-second-section {
+  display: flex;
+}
+
+.middle-second-section a {
+  height: auto;
+  width: 20vh;
+  border: var(--primary-accent-color) solid 2px;
+  border-radius: 5px;
+  margin: 0.5rem;
+  padding: 5px;
+  color: var(--primary-accent-color);
+  text-decoration: none;
+  transition: border 0.3s ease;
+}
+
+
+.middle-second-section a:hover {
+  box-shadow: 0 0 20px 3px #e909de;
+  border-width: 4px;
+  color: #ffffff;
+  border: none;
+  background-color: #01013687;
+}
+
+.main-body__middle-item-container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "icon-title large-title""small-title small-title";
+}
+
+
+.middle-second-section a i {
+  font-size: 3rem;
+  grid-area: icon-title;
+}
+
+.middle-second-section-top-span {
+  grid-area: large-title;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  color: rgb(255, 255, 255);
+  border: #000600 solid 1px;
+  background-color: #000600;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 2px black;
+}
+
+.middle-second-section-button-span {
+  grid-area: small-title;
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+}
+
+/*------------- main body middle container time END -------*/
