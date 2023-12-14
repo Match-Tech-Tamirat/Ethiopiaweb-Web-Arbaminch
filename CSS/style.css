@@ -218,3 +218,83 @@
 }
 
 /*------------- main body middle container time END -------*/
+
+
+/*-------------------------------main body bottom container ABULE CHEDO IMAGE TEXT AND BUTTON START-----------------------*/
+
+.main-body__bottom-container {
+  height: auto;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  background-color: #4e4037b0;
+}
+
+
+.main-body__bottom-items-container hr {
+  color: #e909de;
+  width: 40%;
+  margin-top: 0;
+}
+
+
+
+.main-body__bottom-items-container {
+  width: var(--max-width);
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-body__bottom-note {
+  width: 20%;
+  color: #ffffff;
+}
+
+.read-more-btn {
+  background-color: rgba(0, 0, 0, 0.583);
+  color: var(--primary-main-color);
+  border: none;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+
+.read-more-btn:hover {
+  background-color: var(--primary-main-color);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-body__bottom-image {
+  position: relative;
+  background: url("/images/abule chedo.png") no-repeat center center;
+  width: 45%;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+.main-body__bottom-image-title {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 26px;
+  color: white;
+  padding: 10px 40px;
+  bottom: 70px;
+  left:200px;
+}
+
+/*-------------------------------main body bottom container ABULE CHEDO IMAGE TEXT AND BUTTON END-----------------------*/
