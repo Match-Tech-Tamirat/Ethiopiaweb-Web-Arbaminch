@@ -297,4 +297,97 @@
   left: 200px;
 }
 
+
+.main-body__bottom-image-title:hover{
+  color: #ff36f5;
+  box-shadow: 0 0 10px 5px #3f063c;
+}
 /*-------------------------------main body bottom container ABULE CHEDO IMAGE TEXT AND BUTTON END-----------------------*/
+
+
+
+/*-------------------------------main body bottom container NEWS GRID 2D START-----------------------*/
+.main-body__below-bottom-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(125, 110, 110);
+  padding: 8px 10px;
+  color: #ffffff;
+}
+
+.main-body__below_bottom-title {
+  /* background-color: blanchedalmond; */
+  width: var(--max-width);
+  max-width: var(--max-width);
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 0;
+}
+
+.main-body__below_bottom-title hr {
+  width: 100%;
+  margin: 0;
+}
+
+.main-body__below_bottom-news-container {
+  /* background-color: blueviolet; */
+  width: var(--max-width);
+  max-width: var(--max-width);
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.main-body__below_bottom-news-box {
+  position: relative;
+  background-color: white;
+  width: 28vh;
+  height: 15vh;
+}
+
+/* image item handles zoom and hover */
+.main-body__below_bottom-news-image {
+  width: 28vh;
+  height: 15vh;
+  overflow: hidden;
+}
+
+.main-body__below_bottom-news-image img {
+  width: 100%;
+  height: 100%;
+  transition: transform .2s;
+}
+
+.main-body__below_bottom-news-image img:hover {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.5);
+}
+
+/* image items zoom and hover handle ends  */
+
+.main-body__below_bottom-news-title {
+  position: absolute;
+  bottom: 0px;
+  background-color: #0101368c;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding: 8px;
+  transition: all 0.4s ease;
+}
+
+.main-body__below_bottom-news-title:hover {
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  color: #010136c9;
+  padding: 8px;
+}
+
+/*-------------------------------main body bottom container NEWS GRID 2D END-----------------------*/
