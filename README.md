@@ -24,7 +24,7 @@ This website is designed to showcase the beauty and offerings of አርባምን
 ## Usage
 Feel free to explore the website to discover the richness of አርባምንጭ. The navigation menu provides quick access to different categories, and the news section keeps you informed about current events.
 
-## Contributing
+## Contributing 
 If you have suggestions, improvements, or would like to contribute to this project, please follow these steps:
 1. Fork the repository.
 2. Create a new branch.
