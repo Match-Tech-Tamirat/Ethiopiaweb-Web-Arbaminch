@@ -298,10 +298,11 @@
 }
 
 
-.main-body__bottom-image-title:hover{
+.main-body__bottom-image-title:hover {
   color: #ff36f5;
   box-shadow: 0 0 10px 5px #3f063c;
 }
+
 /*-------------------------------main body bottom container ABULE CHEDO IMAGE TEXT AND BUTTON END-----------------------*/
 
 
@@ -312,7 +313,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(125, 110, 110);
+  background-color: rgb(175, 172, 172);
   padding: 8px 10px;
   color: #ffffff;
 }
@@ -391,3 +392,112 @@
 }
 
 /*-------------------------------main body bottom container NEWS GRID 2D END-----------------------*/
+
+
+/*-------------------------------main footer START-----------------------*/
+.main-footer {
+  background: url("../images/imges-s/stadem.jpg") center bottom;
+  position: relative;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  color: #26012c;
+}
+
+.main-footer__cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 1;
+  opacity: 0.2;
+}
+
+.main-footer__top-container {
+  display: flex;
+  max-width: var(--max-width);
+  justify-content: space-evenly;
+  width: var(--max-width);
+  padding: 2rem;
+  color: var(--primary-white);
+  font-size: 14px;
+  z-index: 2;
+}
+
+.main-footer__item-about {
+  width: 50%;
+  flex-grow: 2;
+}
+
+.main-footer__item-about-content {
+  width: 50%;
+}
+
+.main-footer__item-about-content h2 {
+  color: var(--primary-accent-color);
+}
+
+.main-footer__item-about-content hr {
+  color: var(--primary-accent-color);
+  width: 100%;
+}
+
+.main-footer__item-contact {
+  width: 30%;
+}
+
+.main-footer__item-contact h2 {
+  color: var(--primary-accent-color);
+}
+
+.main-footer__item-contact hr {
+  color: var(--primary-accent-color);
+  width: 60%;
+}
+
+.main-footer__item-links {
+  width: 30%;
+}
+
+.main-footer__item-links h2 {
+  color: var(--primary-accent-color);
+}
+
+.main-footer__item-links hr {
+  width: 60%;
+  color: var(--primary-accent-color);
+}
+
+.main-footer__item-links ul {
+  display: block;
+  list-style: none;
+}
+
+.main-footer__item-links li {
+  margin: 20px 0;
+  border-bottom: solid var(--primary-gray-color) 1px;
+  width: 60%;
+  text-align: center;
+}
+
+.main-footer__item-links a {
+  text-decoration: none;
+  color: var(--primary-white);
+}
+
+.main-footer__bottom-container {
+  height: 5vh;
+  width: var(--max-width);
+  max-width: var(--max-width);
+  color: var(--primary-white);
+  text-align: center;
+  font-size: 20px;
+  /* z-index: 1; */
+  background: #000600b9;
+}
+
+/*-------------------------------main footer END-----------------------*/
