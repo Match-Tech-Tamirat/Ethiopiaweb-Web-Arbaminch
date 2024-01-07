@@ -17,7 +17,7 @@
 ## Fot Termux:-
 
 ```bash
-   pkg updaate && pkg instll git 
+   pkg updaate && pkg instll git -y
 ```
 ### then you can clone it using the following command:
 
