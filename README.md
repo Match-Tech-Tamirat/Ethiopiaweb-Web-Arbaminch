@@ -1,8 +1,30 @@
 # Ethiopiaweb-Web-Arbaminch
 ## visti:- [Ethiopiaweb-Web-Arbaminch](https://match-all.github.io/Ethiopiaweb-Web-Arbaminch/) a website. then not work clone it:
-  '''bash
-   git clone https://github.com/Match-all/Ethiopiaweb-Web-Arbaminch.git
-   '''
+
+
+# How to Clone
+### First:- install it on a Windows os [git](https://git-scm.com/)
+## For Linux:- 
+
+```bash
+   sudo apt update 
+```
+### next
+
+```bash
+   sudo apt install git -y
+```
+## Fot Termux:-
+
+```bash
+   pkg updaate && pkg instll git 
+```
+### then you can clone it using the following command:
+
+```bash
+git clone https://github.com/Match-all/Ethiopiaweb-Web-Arbaminch.git
+```
+
 
 ## descktop mode:-
 [![Open in Cloud Shell](./screencapture-127-0-0-1-5500-index-html-2023-12-17-23_57_02.png)
