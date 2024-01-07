@@ -39,7 +39,7 @@ If you have suggestions, improvements, or would like to contribute to this proje
 4. Submit a pull request.
 
 ## License
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE.md).
 
 ---
 
