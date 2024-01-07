@@ -1,1 +1,1 @@
-all written script or text code are a exaples of website
+all written scripts or text codes are examples of website
